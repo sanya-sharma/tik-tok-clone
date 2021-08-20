@@ -3,9 +3,9 @@ import axios from 'axios'
 import faker from "faker"
 
 const Upload = () => {
-  const username = 'aniak100'
-  const name = 'Ania Kubow'
-  const avatar = 'https://i.imgur.com/QwZod6m.png'
+  const username = 'sanya000'
+  const name = 'Sanya Sharma'
+  const avatar = 'https://media-exp1.licdn.com/dms/image/C5603AQGtDOSyB8b6bQ/profile-displayphoto-shrink_200_200/0/1593001925334?e=1632960000&v=beta&t=99xSD2RB70Kq60e18nTMN_1_29brgUbX5Pt5-6BZ0o0'
   const [video, setVideo] = useState(null)
   const [caption, setCaption] = useState(null)
   const today = new Date()
